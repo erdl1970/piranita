@@ -35,6 +35,8 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
+            
+            
         </div>
     </div>
 
@@ -66,31 +68,22 @@
          </div>
 
      </div>--}}
-<div >
-    <div>
-        <div class="col-md-4">
-            <a class="navbar-brand text-center" href="{{url('/')}}"><h4>Home</h4></a>
-        </div>
-        <div class="col-md-3">
 
-        </div>
-        <div class="col-md-4 float"  >
-            <a  class="navbar-brand "  href="{{url('/')}}"><img class="tamaño" src="{{'/img/logopirana.png'}}"></a>
-        </div>
-
-    </div>
-</div>
+       
 
 
 
-    <div>
+
+    <div class="col-lg-8 col-md-offset-2">
 
         <div class="collapse navbar-collapse" id="navigation-example">
             <ul class="nav navbar-nav navbar-right">
+                <li><a  href="{{url('/')}}"><strong>Home</strong></a></li>
                 @guest
-
+               
                     <li><a href="{{ route('login') }}">Ingresar</a></li>
                     <li><a href="{{ route('register') }}">Registro</a></li>
+                    <li><a><img class="tamaño" src="{{'/img/logopirana.png'}}"></a></li>
                 @else
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
@@ -124,6 +117,7 @@
                                 </form>
                             </li>
                         </ul>
+                        <li><a><img class="tamaño" src="{{'/img/logopirana.png'}}"></a></li>
                     </li>
                 @endguest
                 {{--<li>--}}

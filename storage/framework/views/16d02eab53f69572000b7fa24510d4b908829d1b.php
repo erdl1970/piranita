@@ -35,6 +35,8 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
+            
+            
         </div>
     </div>
 
@@ -42,31 +44,22 @@
 
 
     
-<div >
-    <div>
-        <div class="col-md-4">
-            <a class="navbar-brand text-center" href="<?php echo e(url('/')); ?>"><h4>Home</h4></a>
-        </div>
-        <div class="col-md-3">
 
-        </div>
-        <div class="col-md-4 float"  >
-            <a  class="navbar-brand "  href="<?php echo e(url('/')); ?>"><img class="tamaño" src="<?php echo e('/img/logopirana.png'); ?>"></a>
-        </div>
-
-    </div>
-</div>
+       
 
 
 
-    <div>
+
+    <div class="col-lg-8 col-md-offset-2">
 
         <div class="collapse navbar-collapse" id="navigation-example">
             <ul class="nav navbar-nav navbar-right">
+                <li><a  href="<?php echo e(url('/')); ?>"><strong>Home</strong></a></li>
                 <?php if(auth()->guard()->guest()): ?>
-
+               
                     <li><a href="<?php echo e(route('login')); ?>">Ingresar</a></li>
                     <li><a href="<?php echo e(route('register')); ?>">Registro</a></li>
+                    <li><a><img class="tamaño" src="<?php echo e('/img/logopirana.png'); ?>"></a></li>
                 <?php else: ?>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
@@ -101,6 +94,7 @@
                                 </form>
                             </li>
                         </ul>
+                        <li><a><img class="tamaño" src="<?php echo e('/img/logopirana.png'); ?>"></a></li>
                     </li>
                 <?php endif; ?>
                 

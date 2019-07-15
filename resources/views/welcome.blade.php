@@ -78,7 +78,7 @@
                     <h1 class="title" class="media-middle">Bienvenido a nuestra tienda online</h1>
                     <h4>Realiza tus pedidos en línea y te contactaremos para coordinar la entrega</h4>
                     <br/>
-                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="btn btn-warning btn-raised btn-lg">
+                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" class="btn btn-warning btn-raised btn-lg">
                         <i class="fa fa-play"></i>¿Cómo funciona?
                     </a>
                 </div>
@@ -166,7 +166,7 @@
             </div>
 
 
-            {{--<div class="section landing-section">
+           {{-- <div class="section landing-section">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
                         <h2 class="text-center title">¿Aún no te has registrado?</h2>
@@ -178,7 +178,7 @@
                                 <div class="col-md-6">
                                     <div class="form-group label-floating">
                                         <label class="control-label">Nombre</label>
-                                        <input type="email" class="form-control">
+                                        <input type="text" class="form-control">
                                     </div>
                                 </div>
                                 <div class="col-md-6">
@@ -189,23 +189,23 @@
                                 </div>
                             </div>
 
-                            <div class="form-group label-floating">
+                            --}}{{--<div class="form-group label-floating">
                                 <label class="control-label">Tu mensaje</label>
                                 <textarea class="form-control" rows="4"></textarea>
-                            </div>
+                            </div>--}}{{--
 
                             <div class="row">
                                 <div class="col-md-4 col-md-offset-4 text-center">
                                     <button class="btn btn-warning btn-raised">
-                                        Enviar consulta
+                                        Iniciar registro
                                     </button>
                                 </div>
                             </div>
                         </form>
                     </div>
-                </div>
+                </div>--}}
 
-            </div>--}}
+            </div>
         </div>
 
     </div>
